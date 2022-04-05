@@ -70,11 +70,6 @@ export default defineComponent({
       required: false,
       default: () => [],
     },
-    depth: {
-      type: Number as PropType<number>,
-      required: false,
-      default: 0,
-    },
   },
   setup(props, { emit }) {
     const { author, content, children } = props;
