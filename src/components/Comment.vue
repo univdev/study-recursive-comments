@@ -46,7 +46,6 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
-import Comment from './Comment.vue';
 
 export type CommentType = {
   author: String,
